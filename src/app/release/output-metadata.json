@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "de.tysw.cloudquotations",
+  "applicationId": "de.tysw.quotes",
   "variantName": "release",
   "elements": [
     {
