@@ -6,7 +6,31 @@ Nextcloud into a file.
 It has a settings screen that allows to enter the share link of the file and 
 download it.
 
-Additionally the app has a function to search in my quotes
+The magnifying glass icon can be used to search for keywords in quotations. By 
+tapping on the bilingual quotations (those with the highlighted background), you
+can switch between the languages German and English. This only works for the 
+highlighted quotes. These are the ones that also have an English translation.
+
+The app should run on all *Android 11+* devices.
+
+## Screenshot of the app in German language mode
+
+![Screenshot](doc/screenshots/Quotes.de.png)
+
+## Screenshot of the app with quotes shown in English (when available)
+
+![Screenshot](doc/screenshots/Quotes.en.png)
+
+## URL of the quotes file
+
+Create a public share of the quotes file and append `/download` on it, so that
+the url you insert into the app might look like:
+
+```
+https://cloud.yourdomain.com/s/fowTxcQLSbagdxtrhjs/download
+```
+
+## File format
 
 I saved my favorite quotations over the years in a plain text file in a format 
 that, I suppose, only informaticians would use:
@@ -26,10 +50,3 @@ Thomas Magnum: "Es ist nicht so, als ob wir alt wären. Wir sind einfach nicht m
 [de] >> "Eileen: Das ist doch nur Geld. Geld - nichts weiter. Aber was wir machen, kann niemand zerstören" << "Assistent: Du warst gestern gut im Fernsehen." >> "Eileen: Nein, ich war nur Stichwortgeber für die Witze von dem Arschloch. Aber mich kann man auch nicht zerstören."
 [en] >> "Eileen: This is just money. It's just money. What we do is not goin' away. Not ever." << "Assistant: Hey, you were good on TV last night." >> "Eileen: No, I was the butt of that asshole's jokes. But I'm not goin' away, either."
 ```
-
-The app displays the quotations in a more human friendly way. Mit dem Lupen-Icon
-kann in den Quotations nach Stichworten gesucht werden. By tapping on the 
-bilingual quotations (those with the highlighted background), you can switch 
-between the languages `de` and `en`.
-
-The app should run on all *Android 11+* devices.
