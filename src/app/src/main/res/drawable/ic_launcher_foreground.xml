@@ -1,0 +1,61 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Film-Negativ Grundfläche -->
+    <path
+        android:fillColor="#458588"
+        android:pathData="
+            M16,20
+            H92
+            V88
+            H16
+            Z" />
+
+    <!-- Perforationen oben -->
+    <path
+        android:fillColor="#83a598"
+        android:pathData="
+            M22,24 h8 v8 h-8 z
+            M38,24 h8 v8 h-8 z
+            M54,24 h8 v8 h-8 z
+            M70,24 h8 v8 h-8 z" />
+
+    <!-- Perforationen unten -->
+    <path
+        android:fillColor="#83a598"
+        android:pathData="
+            M22,76 h8 v8 h-8 z
+            M38,76 h8 v8 h-8 z
+            M54,76 h8 v8 h-8 z
+            M70,76 h8 v8 h-8 z" />
+
+    <!-- Öffnendes Anführungszeichen -->
+    <path
+        android:fillColor="#d79921"
+        android:pathData="
+            M36,46
+            c0,-6 4,-10 10,-10
+            v6
+            c-3,0 -4,2 -4,4
+            h4
+            v10
+            h-10
+            z" />
+
+    <!-- Schließendes Anführungszeichen -->
+    <path
+        android:fillColor="#d79921"
+        android:pathData="
+            M72,62
+            c0,6 -4,10 -10,10
+            v-6
+            c3,0 4,-2 4,-4
+            h-4
+            v-10
+            h10
+            z" />
+
+</vector>
