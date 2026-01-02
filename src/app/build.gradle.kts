@@ -1,13 +1,15 @@
 import java.io.ByteArrayOutputStream
+import kotlin.toString
 
 fun getGitTag(): String {
     val stdout = ByteArrayOutputStream()
     project.exec {
-        commandLine("git", "describe", "--tags", "--abbrev=0")
+        commandLine("git", "tag", "--sort=-v:refname")
         standardOutput = stdout
     }
-    return stdout.toString().trim()
+    return stdout.toString().lineSequence().first().trim()
 }
+
 
 plugins {
     alias(libs.plugins.android.application)
